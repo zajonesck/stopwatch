@@ -42,8 +42,21 @@ window.onload = function () {
       tenths = 0;
       appendTenths.innerHTML = "0" + 0;
     }
+    if (seconds <= 9) {
+      appendSeconds.innerHTML = "0" + seconds;
+    }
     if (seconds > 9) {
-      appendSeconds.innerHtml = seconds;
+      appendSeconds.innerHTML = seconds;
+    }
+    if (seconds > 59) {
+      console.log("minutes");
+      minutes++;
+      appendMinutes.innerHTML = "0" + minutes;
+      seconds = 0;
+      appendSeconds.innerHTML = "0" + 0;
+    }
+    if (minutes > 9) {
+      appendMinutes.innerHtml = minutes;
     }
   }
 };
