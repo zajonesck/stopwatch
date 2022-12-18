@@ -1,26 +1,31 @@
+body {
+  background-color: #ffa600;
+}
+
 h1 {
-  color: black;
+  color: white;
   font-size: 70px;
 }
+
 .wrapper {
   text-align: center;
-  border-width: 4px;
-  border-style: solid;
-  border-color: white;
-  background-color: rgba(0, 170, 255, 0.443);
   border-spacing: 0px;
   padding: 50px;
 }
 
 button {
-  font-size: 45px;
+  font-size: 35px;
   color: black;
-  border-radius: 100%;
+  border-radius: 50%;
+  padding: 15px;
 }
 
 #minutes,
 #seconds,
 #tenths {
+  font-size: 50px;
+}
+#colon {
   font-size: 50px;
 }
 
