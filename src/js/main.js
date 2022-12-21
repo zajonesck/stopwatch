@@ -1,4 +1,4 @@
-window.onload = function () {
+window.addEventListener("load", function () {
   var minutes = 00;
   var seconds = 00;
   var tenths = 00;
@@ -59,4 +59,4 @@ window.onload = function () {
       appendMinutes.innerHtml = minutes;
     }
   }
-};
+});
